@@ -10,10 +10,11 @@ From this study we conclude that more research is still needed to understand wha
 
 ## Publication
 ```
-@InProceedings{GomezCanon2021ICASSP,
+@InProceedings{GomezCanon2021,
     author = {Juan Sebasti{\'a}n G{\'o}mez-Ca{\~n}{\'o}n and Estefan{\'i}a Cano and Perfecto Herrera and Emilia G{\'o}mez},
     title = {Language-sensitive Music Emotion Recognition models: are we really there yet?},
-    year = {2021},
+    year = {2021}
+
 }
 ```
 
