@@ -8,6 +8,9 @@ We tested and analyzed intra-linguistic and cross-linguistic settings, depending
 This paper presents additional investigation on our approach, which reveals that: (1) performing pretraining with speech in a mixture of languages yields similar results than for specific languages - the pretraining phase appears not to exploit particular language features, (2) the music in Mandarin dataset consistently results in poor classification performance - we found low agreement in annotations, and (3) novel methodologies for representation learning (Contrastive Predictive Coding) may exploit features from both languages (i.e., pretraining on a mixture of languages) and improve classification of music emotions in both languages.
 From this study we conclude that more research is still needed to understand what is actually being transferred in these type of contexts. 
 
+![CPC implementation][cpc]
+[cpc]: https://github.com/juansgomez87/lang-sens-mer/blob/master/img/cpc_graph.png "CPC implementation"
+
 ## Usage
 Following, we explain the steps to reproduce the the results from our paper. Note that all settings are set in the `settings.py` file. Simply change the `path_to_data` to the directory of your choice. 
 

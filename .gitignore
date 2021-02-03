@@ -1,7 +1,0 @@
-generate_os_feats.py
-models/
-models_trans/
-models.zip
-__pycache__/
-.gitignore
-.gitattributes
