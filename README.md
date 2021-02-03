@@ -9,6 +9,7 @@ This paper presents additional investigation on our approach, which reveals that
 From this study we conclude that more research is still needed to understand what is actually being transferred in these type of contexts. 
 
 ![CPC implementation][cpc]
+
 [cpc]: https://github.com/juansgomez87/lang-sens-mer/blob/master/img/cpc_graph.png "CPC implementation"
 
 ## Usage
