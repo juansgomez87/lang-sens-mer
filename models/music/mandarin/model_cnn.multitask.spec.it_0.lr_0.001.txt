@@ -1,0 +1,56 @@
+models/music/mandarin/model_cnn.multitask.spec.it_0.lr_0.001.json 
+Test results:
+loss: 1.9402847415016544
+quadrants_loss: 0.9532958283539741
+arousal_loss: 0.38079794141794404
+valence_loss: 0.6061909727511867
+quadrants_acc: 0.6080116321963649
+arousal_acc: 0.8176229490387824
+valence_acc: 0.6655869882914328
+
+
+---Quads---
+              precision    recall  f1-score   support
+
+           0       0.67      0.86      0.75      7198
+           1       0.00      0.00      0.00      2379
+           2       0.51      0.77      0.61      3904
+           3       0.00      0.00      0.00      1647
+
+   micro avg       0.61      0.61      0.61     15128
+   macro avg       0.30      0.41      0.34     15128
+weighted avg       0.45      0.61      0.52     15128
+ samples avg       0.61      0.61      0.61     15128
+
+[[0.86093359 0.         0.13906641 0.        ]
+ [0.74401009 0.         0.25598991 0.        ]
+ [0.23130123 0.         0.76869877 0.        ]
+ [0.21554341 0.         0.78445659 0.        ]]
+
+---Arousal---
+              precision    recall  f1-score   support
+
+           0       0.62      0.52      0.56      6283
+           1       0.69      0.77      0.73      8845
+
+   micro avg       0.67      0.67      0.67     15128
+   macro avg       0.65      0.64      0.65     15128
+weighted avg       0.66      0.67      0.66     15128
+ samples avg       0.67      0.67      0.67     15128
+
+[[0.81751036 0.18248964]
+ [0.18231179 0.81768821]]
+
+---Valence---
+              precision    recall  f1-score   support
+
+           0       0.72      0.82      0.77      5551
+           1       0.89      0.82      0.85      9577
+
+   micro avg       0.82      0.82      0.82     15128
+   macro avg       0.80      0.82      0.81     15128
+weighted avg       0.83      0.82      0.82     15128
+ samples avg       0.82      0.82      0.82     15128
+
+[[0.51949706 0.48050294]
+ [0.23063878 0.76936122]]

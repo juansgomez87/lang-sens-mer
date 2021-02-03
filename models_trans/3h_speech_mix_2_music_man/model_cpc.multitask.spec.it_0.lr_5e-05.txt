@@ -1,0 +1,56 @@
+models_trans/speech_mix_2_music_man/model_cpc.multitask.spec.it_0.lr_5e-05.json 
+Test results:
+loss: 2.1856656074523926
+quadrants_loss: 1.0612371967684837
+arousal_loss: 0.48387835895822895
+valence_loss: 0.6405500606183083
+quadrants_acc: 0.567160231932517
+arousal_acc: 0.7594526684091937
+valence_acc: 0.6289661565134602
+
+
+---Quads---
+              precision    recall  f1-score   support
+
+           0       0.63      0.83      0.72      7198
+           1       0.00      0.00      0.00      2379
+           2       0.46      0.67      0.55      3904
+           3       0.00      0.00      0.00      1647
+
+   micro avg       0.57      0.57      0.57     15128
+   macro avg       0.27      0.37      0.32     15128
+weighted avg       0.42      0.57      0.48     15128
+ samples avg       0.57      0.57      0.57     15128
+
+[[0.83036955 0.         0.16963045 0.        ]
+ [0.72677596 0.         0.27322404 0.        ]
+ [0.33324795 0.         0.66675205 0.        ]
+ [0.29265331 0.         0.70734669 0.        ]]
+
+---Arousal---
+              precision    recall  f1-score   support
+
+           0       0.59      0.34      0.43      6283
+           1       0.64      0.84      0.73      8845
+
+   micro avg       0.63      0.63      0.63     15128
+   macro avg       0.62      0.59      0.58     15128
+weighted avg       0.62      0.63      0.60     15128
+ samples avg       0.63      0.63      0.63     15128
+
+[[0.70257611 0.29742389]
+ [0.20758066 0.79241934]]
+
+---Valence---
+              precision    recall  f1-score   support
+
+           0       0.66      0.70      0.68      5551
+           1       0.82      0.79      0.81      9577
+
+   micro avg       0.76      0.76      0.76     15128
+   macro avg       0.74      0.75      0.74     15128
+weighted avg       0.76      0.76      0.76     15128
+ samples avg       0.76      0.76      0.76     15128
+
+[[0.33662263 0.66337737]
+ [0.16336914 0.83663086]]
